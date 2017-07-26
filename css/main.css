@@ -1,9 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto+Slab");
 .a-menu {
-  display: inline-block;
   text-align: center !important;
   margin: 0;
-  width: 100%;
   background-color: #E62121; }
 
 .a-menu__img {
@@ -26,37 +24,49 @@
     color: #F87109;
     text-decoration: none; }
 
+.a-menu__item__link--blue {
+  background: #0B3861 !important;
+  padding: 10px 16px;
+  border-radius: 26px; }
+
 .profile {
-  width: 100%;
-  padding: 20px;
-  box-sizing: border-box;
   display: inline-block;
+  margin: 0;
+  padding: 20px;
   padding-left: 327px;
   background-color: #0B3861; }
   .profile__img {
     margin: 5px 6px;
     width: 250px;
     padding: 10px;
+    float: left;
     background-color: #0B3861; }
   .profile__titulo {
     color: #21E679;
     font-size: 36px;
-    float: right;
     margin-right: 350px; }
   .profile__bajada {
     color: #fff;
     font-size: 20px;
-    float: right;
     margin-right: 350px; }
   .profile__desc {
     color: #fff;
-    float: right;
     line-height: 22px; }
+  .profile__boton {
+    background-color: #21E679;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    border: none;
+    color: whitesmoke;
+    padding: 12px 28px;
+    text-align: center;
+    border-radius: 16px; }
 
 .redesSociales {
   background-color: #0B3861;
   text-align: center !important;
-  padding-bottom: 50px; }
+  padding-bottom: 75px; }
   .redesSociales__iconos {
     padding: 10px; }
 

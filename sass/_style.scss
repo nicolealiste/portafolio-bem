@@ -1,9 +1,7 @@
 //Menu
 .a-menu{
-	display: inline-block;
 	text-align:center!important;
 	margin:0;
-	width:100%;
 	background-color:$menu;
 }
 .a-menu__img{
@@ -28,12 +26,16 @@
 		text-decoration:none;
 	}
 }
+.a-menu__item__link--blue{
+	background:$fondo!important;
+	padding: 10px 16px;
+	border-radius: 26px;
+}
 //Seccion principal
 .profile{
-	width: 100%;
-	padding: 20px;
-	box-sizing: border-box;
 	display: inline-block;
+	margin:0;
+	padding: 20px;
 	padding-left: 327px;
 	background-color:$fondo;
 
@@ -41,31 +43,40 @@
 		margin: 5px 6px;
 		width:250px;
 		padding: 10px;
+		float:left;
 		background-color:$fondo;
 		
 	}
 	&__titulo{
 		color:$green;
 		font-size: 36px;
-		float: right;
 		margin-right: 350px;
 	}
 	&__bajada{
 		color:$white;
 		font-size: 20px;
-		float: right;
 		margin-right: 350px;
 	}
 	&__desc{
 		color:$white;
-		float: right;
 		line-height: 22px;
+	}
+	&__boton{
+		background-color:$green;
+		margin-top: 20px;
+		margin-bottom: 50px;
+		font-size: 20px;
+		border:none;
+		color: whitesmoke;
+		padding: 12px 28px;
+	    text-align: center;
+	    border-radius: 16px; 
 	}
 }
 .redesSociales{
 	background-color:$fondo;
 	text-align: center!important;
-	padding-bottom: 50px;
+	padding-bottom: 75px;
 	&__iconos{
 		padding: 10px;
 	}
