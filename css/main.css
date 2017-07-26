@@ -30,11 +30,10 @@
   border-radius: 26px; }
 
 .profile {
-  display: inline-block;
-  margin: 0;
   padding: 20px;
-  padding-left: 327px;
-  background-color: #0B3861; }
+  background-color: #0B3861;
+  margin: 0;
+  padding-left: 327px; }
   .profile__img {
     margin: 5px 6px;
     width: 250px;
@@ -43,12 +42,10 @@
     background-color: #0B3861; }
   .profile__titulo {
     color: #21E679;
-    font-size: 36px;
-    margin-right: 350px; }
+    font-size: 36px; }
   .profile__bajada {
     color: #fff;
-    font-size: 20px;
-    margin-right: 350px; }
+    font-size: 20px; }
   .profile__desc {
     color: #fff;
     line-height: 22px; }
@@ -66,7 +63,7 @@
 .redesSociales {
   background-color: #0B3861;
   text-align: center !important;
-  padding-bottom: 75px; }
+  padding-bottom: 100px; }
   .redesSociales__iconos {
     padding: 10px; }
 

@@ -33,12 +33,11 @@
 }
 //Seccion principal
 .profile{
-	display: inline-block;
-	margin:0;
-	padding: 20px;
-	padding-left: 327px;
+	padding:20px;
 	background-color:$fondo;
-
+	margin:0;
+	padding-left: 327px;
+	
 	&__img{
 		margin: 5px 6px;
 		width:250px;
@@ -50,12 +49,12 @@
 	&__titulo{
 		color:$green;
 		font-size: 36px;
-		margin-right: 350px;
+		
 	}
 	&__bajada{
 		color:$white;
 		font-size: 20px;
-		margin-right: 350px;
+		
 	}
 	&__desc{
 		color:$white;
@@ -76,7 +75,7 @@
 .redesSociales{
 	background-color:$fondo;
 	text-align: center!important;
-	padding-bottom: 75px;
+	padding-bottom: 100px;
 	&__iconos{
 		padding: 10px;
 	}
